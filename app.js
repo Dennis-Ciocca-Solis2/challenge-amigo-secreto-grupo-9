@@ -1,6 +1,6 @@
 let misAmiguis = [];
 
-function agregarAmigui() {
+function agregarAmigo() {
     let entrada = document.getElementById('amigo');
     let nuevoAmigui = entrada.value.trim();
     if (nuevoAmigui === "") {
@@ -25,7 +25,7 @@ function actualizarListaLoca() {
     }
 }
 
-function sortearAmigui() {
+function sortearAmigo() {
     let mensaje = document.getElementById('resultado');
     if (misAmiguis.length === 0) {
         alert("No hay nombres para sortear.");
@@ -37,20 +37,20 @@ function sortearAmigui() {
     }
 }
 
-function limpiarAmigui() {
+function limpiarAmigo() {
     misAmiguis = [];    
     actualizarListaLoca();
     let mensaje = document.getElementById('resultado');
     mensaje.innerHTML = "";    
 }
 
-function eliminarAmigui() {
+function eliminarAmigo() {
     misAmiguis.pop();
     actualizarListaLoca();
 }
 
 // actualizar último nombre ingresado a traves del input
-function actualizarAmigui() {
+function actualizarAmigo() {
     let entrada = document.getElementById('amigo');
     let nuevoAmigui = entrada.value.trim();
     if (nuevoAmigui === "") {

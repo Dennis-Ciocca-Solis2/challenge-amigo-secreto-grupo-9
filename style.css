@@ -178,20 +178,62 @@ ul {
     flex-wrap: wrap;    
 }
 
+.button-clean img {
+    margin-right: 40px;
+}
+
 .button-clean:hover {
     background-color: rgb(13, 118, 32);
     width: 95%;
     font-size: 22px;     
 }
 
-#button-update {
-    color: purple;
-    width: 80%;
+.button-delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 90%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;    
+    background-color: rgb(16, 208, 52);
+    text-align: center;
+    flex-wrap: wrap;    
 }
 
-#button-update:hover {
+.button-delete img {
+    margin-right: 40px;
+}
+
+.button-delete:hover {
     background-color: rgb(13, 118, 32);
     width: 95%;
-    font-size: 22px;
-    color: white;
+    font-size: 22px;     
+}
+
+.button-update {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    width: 90%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: var(--color-button);
+    font-size: 16px;    
+    background-color: rgb(16, 208, 52);
+    text-align: center;
+    flex-wrap: wrap;    
+}
+
+.button-update img {
+    margin-right: 40px;
+}
+
+.button-update:hover {
+    background-color: rgb(13, 118, 32);
+    width: 95%;
+    font-size: 22px;     
 }
